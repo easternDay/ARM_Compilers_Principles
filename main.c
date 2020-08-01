@@ -44,6 +44,7 @@ int main()
 
         //Êä³ö»ã±à´úÂë
         fp = fopen("./out.txt", "a+");
+        fprintf(fp, " ");
         fprintf(fp, GetArmCode(Qua));
         fclose(fp);
 
